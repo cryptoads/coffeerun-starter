@@ -30,8 +30,8 @@ var lStore = function(object){
 }
 
 if(pastOrders){
-formArray=pastOrders;
-createOrder(formArray);
+    formArray=pastOrders;
+    createOrder(formArray);
 };
-console.log(formArray);
+    console.log(formArray);
 });
